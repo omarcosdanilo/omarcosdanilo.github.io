@@ -1,23 +1,31 @@
-h1, .description {
-    font-family:'Outfit', sans-serif;
-  }
+body{
+    background-color: #02010A;
+}
+h1, p, li{
+    color: aliceblue;
+}
+h1,
+.description {
+  font-family: "Outfit", sans-serif;
+}
 
-  .description {
-    font-weight: 200;
-  }
+.description {
+  font-weight: 200;
+}
 
-  .informations {
-    text-shadow: 0.5px 1px 1px;
-  }
+.header h1{
+    text-align: center;
+}
 
-  .hability-1{
-    font-size: 2em;
-  }
+.header p {
+  display: inline;
+}
 
-  .hability-2{
-    font-size: 1.5em;
-  }
+.header-content{
+    background-color: #04052E;
+    padding: 20px;
+}
 
-  .hability-3{
-    font-size: 1.2em;
-  }
+.informations, a{
+    padding-left: 20px;
+}
