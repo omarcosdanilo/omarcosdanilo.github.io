@@ -1,0 +1,23 @@
+h1, .description {
+    font-family:'Outfit', sans-serif;
+  }
+
+  .description {
+    font-weight: 200;
+  }
+
+  .informations {
+    text-shadow: 0.5px 1px 1px;
+  }
+
+  .hability-1{
+    font-size: 2em;
+  }
+
+  .hability-2{
+    font-size: 1.5em;
+  }
+
+  .hability-3{
+    font-size: 1.2em;
+  }
