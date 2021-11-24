@@ -1,9 +1,8 @@
 body{
-    background-color: #02010A;
+    background-color: #FFFFFC;
+    padding-left: 20px;
 }
-h1, p, li{
-    color: aliceblue;
-}
+
 h1,
 .description {
   font-family: "Outfit", sans-serif;
@@ -21,11 +20,45 @@ h1,
   display: inline;
 }
 
-.header-content{
-    background-color: #04052E;
-    padding: 20px;
+img{
+    width: 200px;
+    border-radius: 50px;
 }
 
-.informations, a{
+.container-image{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #A0C4FF;
+}
+
+
+ul{
+    margin-bottom: 40px;
     padding-left: 20px;
+}
+
+.linkedin, .trybe{
+    text-decoration: none;
+    line-height: 50px;
+    border-radius: 50px;
+    color: #FFFFFC;
+    padding: 15px 30px;
+}
+
+.linkedin{
+    background-color: #A0C4FF;
+}
+
+
+.trybe{
+    background-color: #a8fa95;
+}
+
+.linkedin:hover, .trybe:hover{
+    background-color: #FFADAD;
+    font-size: 1.25em;
+    box-shadow: -1px 3px 10px black;
+    transition: all .2s ease-in-out;
+
 }
